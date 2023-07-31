@@ -16,9 +16,9 @@
 }
 @media screen and (max-width: 768px) {
   .home_comp .form_comp {
-    width: 80vw; /* Adjust the width for smaller screens */
-    height: auto; /* Allow the height to adjust based on content */
-    padding: 20px; /* Reduce padding on smaller screens if necessary */
+    width: 80vw; 
+    height: auto; 
+    padding: 20px; 
   }
   .home_comp .form_comp .select_comp {
     grid-template-columns: 100%; /* Make the select_comp stack on top of each other */
