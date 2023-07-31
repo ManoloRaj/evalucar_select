@@ -22,7 +22,6 @@ export function Home() {
 
     useEffect(() => {
         setListeMarques(Marque)
-        console.log(Marque[1].id_marque)
     }, [])
 
 
