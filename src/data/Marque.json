@@ -1,0 +1,10 @@
+[
+    {
+        "id_marque" : 1,
+        "nom_marque" : "TOYOTA"
+    },
+    {
+        "id_marque" : 2,
+        "nom_marque" : "RENAULT"
+    }
+]

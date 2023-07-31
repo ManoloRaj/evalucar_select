@@ -1,0 +1,26 @@
+.home_comp .form_comp {
+  margin: 10vh auto;
+  width: 40vw;
+  height: 20vh;
+  box-shadow: rgba(30, 43, 65, 0.2117647059) 0px 10px 30px;
+  border-top: 7px solid #367cff;
+  background-color: white;
+  padding: 30px;
+}
+.home_comp .form_comp .select_comp {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.home_comp .form_comp .summary_comp {
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .home_comp .form_comp {
+    width: 80vw; /* Adjust the width for smaller screens */
+    height: auto; /* Allow the height to adjust based on content */
+    padding: 20px; /* Reduce padding on smaller screens if necessary */
+  }
+  .home_comp .form_comp .select_comp {
+    grid-template-columns: 100%; /* Make the select_comp stack on top of each other */
+  }
+}/*# sourceMappingURL=home.css.map */

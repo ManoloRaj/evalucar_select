@@ -1,0 +1,42 @@
+[
+    {
+        "id_modele": 1,
+        "id_marque": 1,
+        "nom_modele": "Avensis"
+    },
+    {
+        "id_modele": 2,
+        "id_marque": 1,
+        "nom_modele": "Aygo"
+    },
+    {
+        "id_modele": 3,
+        "id_marque": 1,
+        "nom_modele": "Prius"
+    },
+    {
+        "id_modele": 4,
+        "id_marque": 1,
+        "nom_modele": "Yaris"
+    },
+    {
+        "id_modele": 5,
+        "id_marque": 2,
+        "nom_modele": "Clio"
+    },
+    {
+        "id_modele": 6,
+        "id_marque": 2,
+        "nom_modele": "Espace"
+    },
+    {
+        "id_modele": 7,
+        "id_marque": 2,
+        "nom_modele": "Mégane"
+    },
+    {
+        "id_modele": 8,
+        "id_marque": 2,
+        "nom_modele": "Scenic"
+    }
+]
