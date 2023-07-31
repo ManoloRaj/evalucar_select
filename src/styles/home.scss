@@ -25,11 +25,11 @@ $second_shadow_color: #1e2b4136;
         }
 
         @media screen and (max-width: 768px) {
-            width: 80vw; /* Adjust the width for smaller screens */
-            height: auto; /* Allow the height to adjust based on content */
-            padding: 20px; /* Reduce padding on smaller screens if necessary */
+            width: 80vw; 
+            height: auto; 
+            padding: 20px;
             .select_comp {
-                grid-template-columns: 100%; /* Make the select_comp stack on top of each other */
+                grid-template-columns: 100%; 
             }
         }
     }
