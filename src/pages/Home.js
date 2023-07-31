@@ -31,23 +31,18 @@ export function Home() {
     }, [idMarqueActive])
 
     const handleChangeMarque = (e) => {
-        var nom_marque = listeMarques.find(marque => marque.id_marque === e.target.value);
-
         setIdMarqueActive(e.target.value)
-
-        setRecap((prev_value) => ({
-            ...prev_value,
-            marque: nom_marque
-        }));
     };
 
     const handleChangeModele = (e) => {
+        var marque = listeMarques.find(marque => marque.id_marque === idMarqueActive);
         var modele = listeModele.find(modele => modele.id_modele === e.target.value);
 
         setIdModeleActive(e.target.value)
 
         setRecap((prev_value) => ({
             ...prev_value,
+            marque: marque,
             modele: modele
         }));
     };
